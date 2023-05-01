@@ -1,9 +1,9 @@
-# chatgpt-service
+# ChatGPTExample
 
 API details
 
-curl --location --request POST 'http://localhost:8090/api/v1/bot/send' \
+curl --location --request POST 'http://localhost:8080/api/v1/bot/send' \
 --header 'Content-Type: application/json' \
 --data-raw '{
-    "message": "What is gpt"
+    "message": "answer chat gpt"
 }'
